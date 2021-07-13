@@ -14,12 +14,14 @@
 #include "pulse_detect.h"
 #include "pulse_detect_fsk.h"
 #include "util.h"
-#include "decoder.h"
+
 #include <limits.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
+#include "log.h"
+#define LOG_MODULE "detect_fsk"
 
 // FSK adaptive frequency estimator constants
 #define FSK_DEFAULT_FM_DELTA 6000       // Default estimate for frequency delta

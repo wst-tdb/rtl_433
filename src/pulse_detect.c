@@ -23,6 +23,9 @@
 #include <stdlib.h>
 #include <string.h>
 
+#include "log.h"
+#define LOG_MODULE "detect_ook"
+
 void pulse_data_clear(pulse_data_t *data)
 {
     *data = (pulse_data_t const){0};

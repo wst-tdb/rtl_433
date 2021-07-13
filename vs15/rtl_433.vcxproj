@@ -110,6 +110,8 @@ COPY ..\..\libusb\MS64\dll\libusb*.dll $(TargetDir)</Command>
     <ClInclude Include="..\include\http_server.h" />
     <ClInclude Include="..\include\jsmn.h" />
     <ClInclude Include="..\include\list.h" />
+    <ClInclude Include="..\include\log.h" />
+    <ClInclude Include="..\include\logger.h" />
     <ClInclude Include="..\include\mongoose.h" />
     <ClInclude Include="..\include\optparse.h" />
     <ClInclude Include="..\include\output_influx.h" />
@@ -148,6 +150,7 @@ COPY ..\..\libusb\MS64\dll\libusb*.dll $(TargetDir)</Command>
     <ClCompile Include="..\src\http_server.c" />
     <ClCompile Include="..\src\jsmn.c" />
     <ClCompile Include="..\src\list.c" />
+    <ClCompile Include="..\src\logger.c" />
     <ClCompile Include="..\src\mongoose.c" />
     <ClCompile Include="..\src\optparse.c" />
     <ClCompile Include="..\src\output_influx.c" />

@@ -83,6 +83,9 @@
 #endif
 #endif
 
+#include "log.h"
+#define LOG_MODULE "main"
+
 r_device *flex_create_device(char *spec); // maybe put this in some header file?
 
 static void print_version(void)
@@ -1314,6 +1317,7 @@ int main(int argc, char **argv) {
     r_cfg_t *cfg = &g_cfg;
 
     print_version(); // always print the version info
+    sdr_redirect_logging();
 
     r_init_cfg(cfg);
 

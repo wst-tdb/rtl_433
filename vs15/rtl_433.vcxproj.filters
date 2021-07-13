@@ -68,6 +68,12 @@
     <ClInclude Include="..\include\list.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="..\include\mongoose.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -176,6 +182,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\src\list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\logger.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\src\mongoose.c">

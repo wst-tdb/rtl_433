@@ -175,4 +175,8 @@ int sdr_reset(sdr_dev_t *dev, int verbose);
 int sdr_start(sdr_dev_t *dev, sdr_event_cb_t cb, void *ctx, uint32_t buf_num, uint32_t buf_len);
 int sdr_stop(sdr_dev_t *dev);
 
+/** Redirect SoapySDR library logging.
+*/
+void sdr_redirect_logging();
+
 #endif /* INCLUDE_SDR_H_ */
